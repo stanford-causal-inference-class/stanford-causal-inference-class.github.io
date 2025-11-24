@@ -4,141 +4,140 @@
   <meta charset="utf-8">
   <title>Causality, Decision Making and Data Science</title>
   <style>
-    body { font-family: sans-serif; margin: 40px; max-width: 800px; }
+    body { font-family: sans-serif; margin: 40px; max-width: 900px; }
     nav a { margin-right: 20px; text-decoration: none; color: #004488; font-weight: bold; }
     nav { margin-bottom: 30px; }
-    h2 { color: #004488; }
+    h2 { color: #004488; margin-top: 40px; }
+    h3 { color: #003366; margin-top: 20px; }
+    ul { margin-bottom: 20px; }
   </style>
 </head>
 <body>
   <nav>
     <a href="index.html">Home</a>
     <a href="syllabus.html">Syllabus Summary</a>
-    <!--<a href="schedule.html">Schedule</a>-->
     <a href="materials.html">Materials</a>
   </nav>
 
   <h1>Course Materials</h1>
 
-  <h2>Lecture Slides</h2>
+  <!-- MODULE 0 -->
+  <h2>Module 0: Introductions and Statistics Refresher</h2>
+
+  <h3>Lectures</h3>
   <ul>
     <li><a href="materials/lecture-slides/Unit0_Lecture1.pptx">Lecture 1 – Introduction and Statistics Refresher</a></li>
     <li><a href="materials/lecture-slides/Unit0_Lecture2.pptx">Lecture 2 – Causality and Correlation</a></li>
+  </ul>
+
+  <h3>Homework</h3>
+  <ul>
+    <li><a href="materials/problem-sets/hw0/hw0.pdf" download>Assignment 0: Statistics Refresher</a></li>
+  </ul>
+
+  <!-- MODULE 1 -->
+  <h2>Module 1: The Gold Standard</h2>
+
+  <h3>Lectures</h3>
+  <ul>
     <li><a href="materials/lecture-slides/Unit1_Lecture1.pptx">Lecture 3 – The Magic of Randomized Control Trials</a></li>
     <li><a href="materials/lecture-slides/Unit1_Lecture2.pptx">Lecture 4 – Problems with Experiments</a></li>
     <li><a href="materials/lecture-slides/Unit1_Lecture3.pptx">Lecture 5 – Online Experiments</a></li>
+  </ul>
+
+  <h3>Homework</h3>
+  <ul>
+    <li>
+      Assignment 1: Randomized Experiments
+      <ul>
+        <li>📓 <a href="materials/problem-sets/hw1/Assignment_1.ipynb" download>Download Notebook</a></li>
+        <li>☁️ <a href="https://colab.research.google.com/github/stanford-causal-inference-class/stanford-causal-inference-class.github.io/blob/main/materials/problem-sets/hw1/Assignment_1.ipynb" target="_blank">Open in Google Colab</a></li>
+        <li>📊 <a href="materials/problem-sets/hw1/jobtraining_rct.csv" download>Download Dataset</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- MODULE 2 -->
+  <h2>Module 2: Universal Basic Income</h2>
+
+  <h3>Lectures</h3>
+  <ul>
     <li><a href="materials/lecture-slides/Unit2_Lecture1.pptx">Lecture 6 – Friedman's Permanent Income Hypothesis</a></li>
     <li><a href="materials/lecture-slides/Unit2_Lecture2.pptx">Lecture 7 – Regression! (Motivated by Understanding the Effect of UBI)</a></li>
     <li><a href="materials/lecture-slides/Unit2_Lecture3.pptx">Lecture 8 – Empirical Evidence on the Effect of Unearned Income</a></li>
     <li><a href="materials/lecture-slides/Unit2_Lecture4.pptx">Lecture 9 – Heterogeneous Treatment Effects and Random Forests</a></li>
-    <li><a href="materials/lecture-slides/Unit3_Lecture1.pptx">Lecture 10 – Returns to Education (Some Theory and Some Regressions)</a></li>
-    <li><a href="materials/lecture-slides/Unit3_Lecture2.pptx">Lecture 11 – Instrumental Variables (And the Effect of Military Service)</a></li>
+  </ul>
+
+  <h3>Homework</h3>
+  <ul>
+    <li>
+      Assignment 2: Universal Basic Income
+      <ul>
+        <li>📓 <a href="materials/problem-sets/hw2/Assignment_2.ipynb" download>Download Notebook</a></li>
+        <li>☁️ <a href="https://colab.research.google.com/github/stanford-causal-inference-class/stanford-causal-inference-class.github.io/blob/main/materials/problem-sets/hw2/Assignment_2.ipynb" target="_blank">Open in Google Colab</a></li>
+        <li>📊 <a href="materials/problem-sets/hw2/lottery.csv" download>Download Dataset</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- MODULE 3 -->
+  <h2>Module 3: Returns to Education</h2>
+
+  <h3>Lectures</h3>
+  <ul>
+    <li><a href="materials/lecture-slides/Unit3_Lecture1.pptx">Lecture 10 – Returns to Education</a></li>
+    <li><a href="materials/lecture-slides/Unit3_Lecture2.pptx">Lecture 11 – Instrumental Variables</a></li>
     <li><a href="materials/lecture-slides/Unit3_Lecture3.pptx">Lecture 12 – The Return of Instrumental Variables</a></li>
     <li><a href="materials/lecture-slides/Unit3_Lecture4.pptx">Lecture 13 – Regression Discontinuity</a></li>
+  </ul>
+
+  <h3>Homework</h3>
+  <ul>
+    <li>
+      Assignment 3: Returns to Education
+      <ul>
+        <li>📓 <a href="materials/problem-sets/hw3/Assignment_3.ipynb" download>Download Notebook</a></li>
+        <li>☁️ <a href="https://colab.research.google.com/github/stanford-causal-inference-class/stanford-causal-inference-class.github.io/blob/main/materials/problem-sets/hw3/Assignment_3.ipynb" target="_blank">Open in Google Colab</a></li>
+        <li>📊 <a href="materials/problem-sets/hw3/school_data.csv" download>Download Dataset</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- MODULE 4 -->
+  <h2>Module 4: Panel Data</h2>
+
+  <h3>Lectures</h3>
+  <ul>
     <li><a href="materials/lecture-slides/Unit4_Class1.pptx">Lecture 14 – Panel Data!</a></li>
-    <li><a href="materials/lecture-slides/Unit4_Class2.pptx">Lecture 15 – Differene-in-Differences (and a bit about placebo analysis)</a></li>
+    <li><a href="materials/lecture-slides/Unit4_Class2.pptx">Lecture 15 – Difference-in-Differences</a></li>
     <li><a href="materials/lecture-slides/Unit4_Class3.pptx">Lecture 16 – Sparsity and Low-rankness</a></li>
     <li><a href="materials/lecture-slides/Unit4_Class4.pptx">Lecture 17 – Synthetic Control (and course recap)</a></li>
   </ul>
 
-  <h2>Pre-Class Prompts</h2>
+  <h3>Homework</h3>
   <ul>
-    <li><a href="materials/pre-class-prompts/prompts.pdf">All Pre-Class Prompts Starting From Lecture 3</a></li>
-  </ul>
-
-  <h2>Assignments</h2>
-    
-  <li>
-    Assignment 0: Statistics refresher
-<ul>
-  <li><a href="materials/problem-sets/hw0/hw0.pdf" download>
-          Download Assignment</a></li>
-  </ul>
-  </li>
-
-  <li>
-    Assignment 1: Randomized Experiments
-    <ul>
-      <li>
-        📓 <a href="materials/problem-sets/hw1/Assignment_1.ipynb" download>
-          Download Notebook
-        </a>
-      </li>
-      <li>
-        ☁️ <a href="https://colab.research.google.com/github/stanford-causal-inference-class/stanford-causal-inference-class.github.io/blob/main/materials/problem-sets/hw1/Assignment_1.ipynb" target="_blank">
-          Open in Google Colab
-        </a>
-      </li>
-      <li>
-        📊 <a href="materials/problem-sets/hw1/jobtraining_rct.csv" download>
-          Download Dataset
-        </a>
-      </li>
-    </ul>
-  </li>
-
-  <li>
-    Assignment 2: Universal Basic Income and Permanent Income Hypothesis
-    <ul>
-      <li>
-        📓 <a href="materials/problem-sets/hw2/Assignment_2.ipynb" download>
-          Download Notebook
-        </a>
-      </li>
-      <li>
-        ☁️ <a href="https://colab.research.google.com/github/stanford-causal-inference-class/stanford-causal-inference-class.github.io/blob/main/materials/problem-sets/hw2/Assignment_2.ipynb" target="_blank">
-          Open in Google Colab
-        </a>
-      </li>
-      <li>
-        📊 <a href="materials/problem-sets/hw2/lottery.csv" download>
-          Download Dataset
-        </a>
-      </li>
+    <li>
+      Assignment 4: Economic Impact of Brexit
+      <ul>
+        <li>📓 <a href="materials/problem-sets/hw4/Assignment_4.ipynb" download>Download Notebook</a></li>
+        <li>☁️ <a href="https://colab.research.google.com/github/stanford-causal-inference-class/stanford-causal-inference-class.github.io/blob/main/materials/problem-sets/hw4/Assignment_4.ipynb" target="_blank">Open in Google Colab</a></li>
+        <li>📊 <a href="materials/problem-sets/hw4/gdp per hours worked oecd.csv" download>Download Dataset</a></li>
       </ul>
-  </li>
+    </li>
+  </ul>
 
-  <li>
-    Assignment 3: Returns to Education
-    <ul>
-      <li>
-        📓 <a href="materials/problem-sets/hw3/Assignment_3.ipynb" download>
-          Download Notebook
-        </a>
-      </li>
-      <li>
-        ☁️ <a href="https://colab.research.google.com/github/stanford-causal-inference-class/stanford-causal-inference-class.github.io/blob/main/materials/problem-sets/hw3/Assignment_3.ipynb" target="_blank">
-          Open in Google Colab
-        </a>
-      </li>
-      <li>
-        📊 <a href="materials/problem-sets/hw3/school_data.csv" download>
-          Download Dataset
-        </a>
-      </li>
-    </ul>
-  </li>
+  <!-- ADDITIONAL MATERIALS -->
+  <h2>Additional Materials</h2>
 
-  <li>
-    Assignment 4: Economic Impact of Brexit on the UK
-    <ul>
-      <li>
-        📓 <a href="materials/problem-sets/hw4/Assignment_4.ipynb" download>
-          Download Notebook
-        </a>
-      </li>
-      <li>
-        ☁️ <a href="https://colab.research.google.com/github/stanford-causal-inference-class/stanford-causal-inference-class.github.io/blob/main/materials/problem-sets/hw4/Assignment_4.ipynb" target="_blank">
-          Open in Google Colab
-        </a>
-      </li>
-      <li>
-        📊 <a href="materials/problem-sets/hw4/gdp per hours worked oecd.csv" download>
-          Download Dataset
-        </a>
-      </li>
-    </ul>
-  </li>
-</ul>
+  <h3>Full Syllabus</h3>
+  <ul>
+    <li><a href="materials/Syllabus.pdf">Full Syllabus (PDF)</a></li>
+  </ul>
+
+  <h3>Project Guidelines</h3>
+  <ul>
+    <li><a href="materials/Final Project Guidelines and Suggestions.pdf">Project Guidelines</a></li>
+  </ul>
+
 </body>
 </html>
